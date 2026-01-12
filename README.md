@@ -1,27 +1,50 @@
-Esta aplicación mobile forma parte del desarrollo de mi tesis y consiste en una plataforma similar a un marketplace, inspirada en el modelo de Mercado Libre, pero adaptada al sistema de rifas digitales.
+# Welcome to your Expo app 👋
 
-En lugar de comprar un producto de forma directa, los usuarios pueden:
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-Publicar productos que desean rifar.
+## Get started
 
-Definir el monto total objetivo de la rifa y el precio de cada participación.
+1. Install dependencies
 
-Gestionar el estado de la rifa (abierta, completada, finalizada).
+   ```bash
+   npm install
+   ```
 
-Por su parte, los demás usuarios pueden:
+2. Start the app
 
-Explorar productos disponibles.
+   ```bash
+   npx expo start
+   ```
 
-Comprar rifas para participar en los sorteos.
+In the output, you'll find options to open the app in a
 
-Aumentar el progreso de la rifa hasta que se alcance el monto total definido.
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-Cuando la rifa alcanza el objetivo económico, se habilita el sorteo del producto entre los participantes.
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-El proyecto está pensado como una solución multiplataforma:
+## Get a fresh project
 
-Aplicación Mobile: destinada a publicarse en Google Play Store.
+When you're ready, run:
 
-Aplicación Web: como versión complementaria para acceso desde navegador.
+```bash
+npm run reset-project
+```
 
-El objetivo principal es desarrollar una plataforma segura, intuitiva y escalable que permita gestionar rifas digitales de forma transparente, combinando conceptos de comercio electrónico, economía colaborativa y gamificación.
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+
+## Learn more
+
+To learn more about developing your project with Expo, look at the following resources:
+
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
